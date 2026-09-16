@@ -1,0 +1,537 @@
+
+<!DOCTYPE HTML>
+<html lang="zh-hans">
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>&#x56FE;&#x50CF;&#x5904;&#x7406; &#xB7; STOmics software Download</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="description" content>
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-expandable-chapters-small/expandable-chapters-small.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-anchor-navigation-ex/style/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-tbfed-pagefooter/footer.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-katex/katex.min.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-hints/plugin-hints.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-tabs/bootstrap.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-lightbox/css/lightbox.min.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search-plus/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    
+    <link rel="prev" href="advanced-analysis-cn.html">
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary"><div class="book-logo-root"><div class="book-logo" style="text-align: center; padding: 20px;"><img src="data:image/png;base64,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" style><p class="book-title" style="font-weight:600">&#x65F6;&#x7A7A;&#x8F6F;&#x4EF6;&#x4E0B;&#x8F7D;</p></div></div>
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="&#x8F93;&#x5165;&#x5E76;&#x641C;&#x7D22;">
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    &#x8F6F;&#x4EF6;&#x7248;&#x672C;
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../saw-previous-versions.html">
+            
+                <a href="../saw-previous-versions.html">
+            
+                    
+                    SAW
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../stereomap-previous-versions.html">
+            
+                <a href="../stereomap-previous-versions.html">
+            
+                    
+                    StereoMap
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../imagestudio-previous-versions.html">
+            
+                <a href="../imagestudio-previous-versions.html">
+            
+                    
+                    ImageStudio&#xFF08;&#x5DF2;&#x505C;&#x6B62;&#x7EF4;&#x62A4;&#xFF09;
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">&#x6269;&#x5C55;&#x4E0E;&#x63D2;&#x4EF6;</li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" data-path="../add-on-packages-cn/saw.html">
+            
+                <a href="../add-on-packages-cn/saw.html">
+            
+                    
+                    SAW
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="../add-on-packages-cn/stereomap.html">
+            
+                <a href="../add-on-packages-cn/stereomap.html">
+            
+                    
+                    StereoMap
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" data-path="../add-on-packages-cn/imagestudio.html">
+            
+                <a href="../add-on-packages-cn/imagestudio.html">
+            
+                    
+                    ImageStudio
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4" data-path="../add-on-packages-cn/mask-download-tool-cn.html">
+            
+                <a href="../add-on-packages-cn/mask-download-tool-cn.html">
+            
+                    
+                    &#x82AF;&#x7247;&#x4E0B;&#x8F7D;&#x5DE5;&#x5177;
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">&#x751F;&#x6001;&#x5DE5;&#x5177;</li>
+        
+        
+    
+        <li class="chapter " data-level="3.1" data-path="advanced-analysis-cn.html">
+            
+                <a href="advanced-analysis-cn.html">
+            
+                    
+                    &#x9AD8;&#x7EA7;&#x5206;&#x6790;
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="3.2" data-path="image-processing-cn.html">
+            
+                <a href="image-processing-cn.html">
+            
+                    
+                    &#x56FE;&#x50CF;&#x5904;&#x7406;
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            &#x672C;&#x4E66;&#x4F7F;&#x7528; GitBook &#x53D1;&#x5E03;
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="..">&#x56FE;&#x50CF;&#x5904;&#x7406;</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div class="search-plus" id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <div id="anchor-navigation-ex-navbar"><i class="fa fa-navicon"></i><ul><li><span class="title-icon "></span><a href="#&#x56FE;&#x50CF;&#x5904;&#x7406;"><b></b>&#x56FE;&#x50CF;&#x5904;&#x7406;</a></li><ul><li><span class="title-icon "></span><a href="#stomics-&#x5F00;&#x53D1;&#x5DE5;&#x5177;-"><b></b>STOmics &#x5F00;&#x53D1;&#x5DE5;&#x5177; </a></li><li><span class="title-icon "></span><a href="#&#x793E;&#x533A;&#x5F00;&#x53D1;&#x5DE5;&#x5177;-"><b></b>&#x793E;&#x533A;&#x5F00;&#x53D1;&#x5DE5;&#x5177; </a></li><ul><li><span class="title-icon "></span><a href="#&#x901A;&#x7528;&#x6846;&#x67B6;&#x4E0E;&#x5DE5;&#x5177;&#x5305;-"><b></b>&#x901A;&#x7528;&#x6846;&#x67B6;&#x4E0E;&#x5DE5;&#x5177;&#x5305; </a></li><li><span class="title-icon "></span><a href="#&#x7EC6;&#x80DE;&#x5206;&#x5272;-"><b></b>&#x7EC6;&#x80DE;&#x5206;&#x5272; </a></li><li><span class="title-icon "></span><a href="#&#x56FE;&#x50CF;&#x914D;&#x51C6;-"><b></b>&#x56FE;&#x50CF;&#x914D;&#x51C6; </a></li></ul></ul></ul></div><a href="#&#x56FE;&#x50CF;&#x5904;&#x7406;" id="anchorNavigationExGoTop"><i class="fa fa-arrow-up"></i></a><h1 id="&#x56FE;&#x50CF;&#x5904;&#x7406;"><a name="&#x56FE;&#x50CF;&#x5904;&#x7406;" class="anchor-navigation-ex-anchor" href="#&#x56FE;&#x50CF;&#x5904;&#x7406;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x56FE;&#x50CF;&#x5904;&#x7406;</h1>
+<p>&#x56FE;&#x50CF;&#x5904;&#x7406;&#x4E0E;&#x7EC6;&#x80DE;&#x5206;&#x5272;&#x662F;&#x65F6;&#x7A7A;&#x8F6C;&#x5F55;&#x7EC4;&#x5B66;&#x4E2D;&#x81F3;&#x5173;&#x91CD;&#x8981;&#x7684;&#x4E0A;&#x6E38;&#x6B65;&#x9AA4;&#x3002;&#x4EE5;&#x4E0B;&#x662F;&#x517C;&#x5BB9; Stereo-seq &#x56FE;&#x50CF;&#x5206;&#x6790;&#x6D41;&#x7A0B;&#x7684;&#x5DE5;&#x5177;&#xFF0C;&#x5206;&#x4E3A; &#x65F6;&#x7A7A;&#x81EA;&#x4E3B;&#x7814;&#x53D1;&#x5DE5;&#x5177;&#xFF08;STOmics Developed&#xFF09;&#xFF08;&#x539F;&#x751F;&#x652F;&#x6301;&#x65F6;&#x7A7A;&#x4E13;&#x6709;&#x56FE;&#x50CF;&#x683C;&#x5F0F;&#xFF09;&#x4E0E; &#x793E;&#x533A;&#x5E38;&#x7528;&#x5DE5;&#x5177;&#xFF08;Community Tools&#xFF09;&#xFF08;&#x9700;&#x8F93;&#x5165;&#x6807;&#x51C6;&#x683C;&#x5F0F;&#x56FE;&#x50CF;&#x7684;&#x901A;&#x7528;&#x6A21;&#x578B;&#xFF09;&#x3002;</p>
+<p></p><div class="alert alert-info hints-alert"><div class="hints-icon"><i class="fa fa-info-circle"></i></div><div class="hints-container"><p>&#x60F3;&#x8981;&#x4E86;&#x89E3;&#x4E0D;&#x540C;&#x5206;&#x5272;&#x6A21;&#x578B;&#x5728; Stereo-seq &#x6570;&#x636E;&#x96C6;&#x4E0A;&#x7684;&#x6027;&#x80FD;&#x8868;&#x73B0;&#x4E0E;&#x5BF9;&#x6BD4;&#x8BC4;&#x6D4B;&#xFF0C;&#x6B22;&#x8FCE;&#x9605;&#x8BFB;&#x6211;&#x4EEC;&#x7684;<a href="https://www.stomics.tech/STOmicsNews/1470.html" target="_blank">&#x56FE;&#x50CF;&#x5206;&#x5272;benchmark&#x535A;&#x6587;</a>&#x3002;</p>
+</div></div><p></p>
+<h2 id="stomics-&#x5F00;&#x53D1;&#x5DE5;&#x5177;-"><a name="stomics-&#x5F00;&#x53D1;&#x5DE5;&#x5177;-" class="anchor-navigation-ex-anchor" href="#stomics-&#x5F00;&#x53D1;&#x5DE5;&#x5177;-"><i class="fa fa-link" aria-hidden="true"></i></a>STOmics &#x5F00;&#x53D1;&#x5DE5;&#x5177; <a href="#stomics-developed" id="stomics-developed"></a></h2>
+<p><em>&#x672C;&#x7AE0;&#x8282;&#x4E2D;&#x7684;&#x5DE5;&#x5177;&#x57FA;&#x4E8E; Stereo-seq &#x771F;&#x5B9E;&#x56FE;&#x50CF;&#x6570;&#x636E;&#x96C6;&#x8FDB;&#x884C;&#x8BAD;&#x7EC3;&#x3001;&#x5FAE;&#x8C03;&#x6216;&#x57FA;&#x51C6;&#x6D4B;&#x8BD5;&#xFF0C;&#x4E13;&#x95E8;&#x9488;&#x5BF9;&#x82AF;&#x7247; Track &#x7EBF;&#x3001;&#x7EC4;&#x7EC7;&#x6E05;&#x6670;&#x5EA6;&#x5DEE;&#x5F02;&#x53CA;&#x80CC;&#x666F;&#x566A;&#x70B9;&#x7B49;&#x65F6;&#x7A7A;&#x6570;&#x636E;&#x7279;&#x6027;&#x8FDB;&#x884C;&#x4E86;&#x6DF1;&#x5EA6;&#x4F18;&#x5316;&#x3002;</em></p>
+<table>
+<thead>
+<tr>
+<th>cellbin2</th>
+<th>CSRefiner</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../img/assets/cellbin2.svg" data-lightbox="34a5d3b9-276f-47d7-965c-9c395972e1ab" data-title><img src="../img/assets/cellbin2.svg" alt></a></td>
+<td><a href="../img/assets/csrefiner.svg" data-lightbox="34a5d3b9-276f-47d7-965c-9c395972e1ab" data-title><img src="../img/assets/csrefiner.svg" alt></a></td>
+</tr>
+<tr>
+<td><code>Python Toolkit</code> <code>Open Source</code></td>
+<td><code>Python</code> <code>Fine-turning</code> <code>Open Source</code></td>
+</tr>
+<tr>
+<td><a href="https://github.com/STOmics/cellbin2" class="button primary small" data-icon="github" target="_blank">GitHub</a><a href="https://www.biorxiv.org/content/10.1101/2023.02.28.530414v5" class="button secondary small" data-icon="up-right-from-square" target="_blank">Paper</a></td>
+<td><a href="https://github.com/STOmics/CSRefiner" class="button primary small" data-icon="github" target="_blank">GitHub</a><a href="https://doi.org/10.1093/bib/bbaf718" class="button secondary small" data-icon="up-right-from-square" target="_blank">Paper</a></td>
+</tr>
+<tr>
+<td><ul><li>&#x4E13;&#x4E3A; Stereo-seq &#x7EC4;&#x7EC7;&#x56FE;&#x50CF;&#x6253;&#x9020;&#x7684;&#x56FE;&#x50CF;&#x5904;&#x7406;&#x4E0E;&#x5355;&#x7EC6;&#x80DE;&#x5206;&#x5272;&#x6846;&#x67B6;&#x3002;</li><li><p>&#x6838;&#x5FC3;&#x529F;&#x80FD;&#x4E0E;&#x4EF7;&#x503C;&#xFF1A;</p><ul><li>Stereo-seq &#x4E13;&#x9879;&#x4F18;&#x5316;&#xFF1A;&#x57FA;&#x4E8E;&#x539F;&#x751F; Stereo-seq &#x6570;&#x636E;&#x96C6;&#x8BAD;&#x7EC3;&#x5E76;&#x5B8C;&#x6210; benchmark &#x6D4B;&#x8BD5;&#x3002;&#x53EF;&#x539F;&#x751F;&#x5904;&#x7406;&#x82AF;&#x7247; Track &#x7EBF;&#x914D;&#x51C6;&#x3001;&#x566A;&#x70B9;&#x6291;&#x5236;&#xFF0C;&#x5E76;&#x6709;&#x6548;&#x5E94;&#x5BF9;&#x4E0D;&#x540C;&#x7EC4;&#x7EC7;&#x7C7B;&#x578B;&#x7684;&#x67D3;&#x8272;&#x6E05;&#x6670;&#x5EA6;&#x5DEE;&#x5F02;&#x3002;</li><li>&#x5DE5;&#x4F5C;&#x6D41;&#x4EF7;&#x503C;&#xFF1A;&#x53EF;&#x76F4;&#x63A5;&#x5D4C;&#x5165; <em>SAW</em> &#x5206;&#x6790;&#x6D41;&#x7A0B;&#xFF0C;&#x7CBE;&#x51C6;&#x8F93;&#x51FA;&#x7EC6;&#x80DE;&#x5206;&#x5272;&#x63A9;&#x7801;&#xFF08;Cell Mask&#xFF09;&#x4EE5;&#x53CA;&#x5355;&#x7EC6;&#x80DE;&#x7CBE;&#x5EA6;&#x7684;&#x57FA;&#x56E0;&#x8868;&#x8FBE;&#x77E9;&#x9635;&#xFF08;cellbin&#xFF09;&#x3002;</li></ul>&lt;/li&gt;&lt;/ul&gt;</li></ul></td>
+<td><ul><li>&#x8F7B;&#x91CF;&#x7EA7;&#x5FAE;&#x8C03;&#x6846;&#x67B6;&#xFF0C;&#x4EC5;&#x9700;&#x6781;&#x5C11;&#x91CF;&#x7684;&#x6807;&#x6CE8;&#x6570;&#x636E;&#xFF0C;&#x5373;&#x53EF;&#x5C06;&#x901A;&#x7528;&#x5206;&#x5272;&#x6A21;&#x578B;&#xFF08;&#x5982; <em>Cellpose</em>&#x3001;<em>StarDist&#x3001;cellbin</em>&#xFF09;&#x5FEB;&#x901F;&#x8FC1;&#x79FB;&#x9002;&#x914D;&#x81F3;&#x7279;&#x5B9A;&#x7684;&#x7EC4;&#x7EC7;&#x7C7B;&#x578B;&#x3002;</li><li><p>&#x6838;&#x5FC3;&#x529F;&#x80FD;&#x4E0E;&#x4EF7;&#x503C;&#xFF1A;</p><ul><li>Stereo-seq &#x4E13;&#x9879;&#x4F18;&#x5316;&#xFF1A;&#x6709;&#x6548;&#x89E3;&#x51B3;&#x590D;&#x6742;&#x7EC4;&#x7EC7;&#x7ED3;&#x6784;&#x4E2D;&#x7684;&#x5C40;&#x90E8;&#x6B20;&#x5206;&#x5272;&#x6216;&#x8FC7;&#x5206;&#x5272;&#x95EE;&#x9898;&#xFF1B;&#x6700;&#x5C11;&#x4EC5;&#x9700; 20 &#x5F20;&#x56FE;&#x50CF;&#x5207;&#x7247;&#xFF08;Patches&#xFF09;&#x5373;&#x53EF;&#x5B8C;&#x6210;&#x5FAE;&#x8C03;&#xFF1B;&#x5DF2;&#x5728; Stereo-seq DAPI FFPE &#x53CA; H&amp;E &#x65B0;&#x9C9C;&#x51B7;&#x51BB;&#x7EC4;&#x7EC7;&#x5207;&#x7247;&#x4E0A;&#x5B8C;&#x6210;&#x5145;&#x5206;&#x9A8C;&#x8BC1;&#x3002;</li><li>&#x5DE5;&#x4F5C;&#x6D41;&#x4EF7;&#x503C;&#xFF1A;&#x5FAE;&#x8C03;&#x751F;&#x6210;&#x7684;&#x6A21;&#x578B;&#x6743;&#x91CD;&#x53EF;&#x76F4;&#x63A5;&#x65E0;&#x7F1D;&#x63A5;&#x5165; <em>SAW</em> &#x6216;&#x4E0B;&#x6E38;&#x7EC6;&#x80DE;&#x5206;&#x5272;&#x6D41;&#x7A0B;&#xFF0C;&#x663E;&#x8457;&#x63D0;&#x5347;&#x5355;&#x7EC6;&#x80DE;&#x57FA;&#x56E0;&#x8868;&#x8FBE;&#x77E9;&#x9635;&#x7684;&#x51C6;&#x786E;&#x5EA6;&#x3002;</li></ul>&lt;/li&gt;&lt;/ul&gt;</li></ul></td>
+</tr>
+</tbody>
+</table>
+<h2 id="&#x793E;&#x533A;&#x5F00;&#x53D1;&#x5DE5;&#x5177;-"><a name="&#x793E;&#x533A;&#x5F00;&#x53D1;&#x5DE5;&#x5177;-" class="anchor-navigation-ex-anchor" href="#&#x793E;&#x533A;&#x5F00;&#x53D1;&#x5DE5;&#x5177;-"><i class="fa fa-link" aria-hidden="true"></i></a>&#x793E;&#x533A;&#x5F00;&#x53D1;&#x5DE5;&#x5177; <a href="#community-developed" id="community-developed"></a></h2>
+<p><em>&#x751F;&#x7269;&#x56FE;&#x50CF;&#x4E0E;&#x6570;&#x5B57;&#x75C5;&#x7406;&#x793E;&#x533A;&#x5E7F;&#x6CDB;&#x4F7F;&#x7528;&#x7684;&#x56FE;&#x50CF;&#x5206;&#x6790;&#x5DE5;&#x5177;&#x3002;&#x8FD9;&#x4E9B;&#x901A;&#x7528;&#x5DE5;&#x5177;&#x53EF;&#x7528;&#x4E8E;&#x5904;&#x7406;&#x5BFC;&#x51FA;&#x7684;&#x7EC4;&#x7EC7;&#x56FE;&#x50CF;&#xFF0C;&#x6216;&#x987A;&#x7545;&#x8854;&#x63A5;&#x81F3; Stereo-seq &#x5206;&#x6790;&#x6D41;&#x7A0B;&#x4E2D;&#x3002;</em></p>
+<blockquote>
+<p><em>&#x6CE8;&#x610F;&#xFF1A;STOmics &#x4EC5;&#x63D0;&#x4F9B;&#x6B64;&#x5DE5;&#x5177;&#x5217;&#x8868;&#x4F9B;&#x53C2;&#x8003;&#xFF0C;&#x4E0D;&#x5BF9;&#x793E;&#x533A;&#x5F00;&#x53D1;&#x5DE5;&#x5177;&#x63D0;&#x4F9B;&#x5B98;&#x65B9;&#x6280;&#x672F;&#x652F;&#x6301;&#x6216;&#x5F00;&#x53D1;&#x7EF4;&#x62A4;&#x3002;&#x6211;&#x4EEC;&#x4E0D;&#x5BF9;&#x5176;&#x6027;&#x80FD;&#x8868;&#x73B0;&#x3001;&#x7A33;&#x5B9A;&#x6027;&#x6216;&#x517C;&#x5BB9;&#x6027;&#x505A;&#x4EFB;&#x4F55;&#x4FDD;&#x8BC1;&#x3002;&#x5982;&#x9700;&#x6280;&#x672F;&#x652F;&#x6301;&#x3001;&#x95EE;&#x9898;&#x53CD;&#x9988;&#x6216;&#x529F;&#x80FD;&#x5EFA;&#x8BAE;&#xFF0C;&#x8BF7;&#x76F4;&#x63A5;&#x8054;&#x7CFB;&#x5BF9;&#x5E94;&#x5DE5;&#x5177;&#x7684;&#x5F00;&#x53D1;&#x8005;&#x6216;&#x67E5;&#x9605;&#x5176;&#x5B98;&#x65B9;&#x4EE3;&#x7801;&#x4ED3;&#x5E93;&#x3002;</em></p>
+</blockquote>
+<h3 id="&#x901A;&#x7528;&#x6846;&#x67B6;&#x4E0E;&#x5DE5;&#x5177;&#x5305;-"><a name="&#x901A;&#x7528;&#x6846;&#x67B6;&#x4E0E;&#x5DE5;&#x5177;&#x5305;-" class="anchor-navigation-ex-anchor" href="#&#x901A;&#x7528;&#x6846;&#x67B6;&#x4E0E;&#x5DE5;&#x5177;&#x5305;-"><i class="fa fa-link" aria-hidden="true"></i></a>&#x901A;&#x7528;&#x6846;&#x67B6;&#x4E0E;&#x5DE5;&#x5177;&#x5305; <a href="#general-frameworks-and-toolkits" id="general-frameworks-and-toolkits"></a></h3>
+<p><em>&#x652F;&#x6301;&#x751F;&#x7269;&#x56FE;&#x50CF;&#x53EF;&#x89C6;&#x5316;&#x3001;&#x624B;&#x52A8;&#x6807;&#x6CE8;&#x3001;&#x683C;&#x5F0F;&#x8F6C;&#x6362;&#x4E0E;&#x5B9A;&#x5236;&#x5316;&#x5DE5;&#x4F5C;&#x6D41;&#x642D;&#x5EFA;&#x7684;&#x8F6F;&#x4EF6;&#x5E73;&#x53F0;&#x53CA;&#x4EA4;&#x4E92;&#x5F0F;&#x67E5;&#x770B;&#x5DE5;&#x5177;&#x3002;</em></p>
+<table>
+<thead>
+<tr>
+<th>ImageJ/Fiji</th>
+<th>Napari</th>
+<th>QuPath</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../img/assets/imagej-fiji.svg" data-lightbox="34a5d3b9-276f-47d7-965c-9c395972e1ab" data-title><img src="../img/assets/imagej-fiji.svg" alt></a></td>
+<td><a href="../img/assets/napari.svg" data-lightbox="34a5d3b9-276f-47d7-965c-9c395972e1ab" data-title><img src="../img/assets/napari.svg" alt></a></td>
+<td><a href="../img/assets/qupath.svg" data-lightbox="34a5d3b9-276f-47d7-965c-9c395972e1ab" data-title><img src="../img/assets/qupath.svg" alt></a></td>
+</tr>
+<tr>
+<td><code>Java</code> <code>GUI</code></td>
+<td><code>Python</code>  <code>GUI</code></td>
+<td><code>Java</code> <code>GUI</code></td>
+</tr>
+<tr>
+<td><a href="https://github.com/imagej" class="button primary small" data-icon="github" target="_blank">GitHub-ImageJ</a><a href="https://imagej.net/ij/docs/index.html" class="button primary small" data-icon="readme" target="_blank">Doc-ImageJ</a><a href="https://github.com/fiji/fiji" class="button primary small" data-icon="github" target="_blank">GitHub-Fiji</a><a href="https://fiji.sc/" class="button primary small" data-icon="readme" target="_blank">Doc-Fiji</a></td>
+<td><a href="https://github.com/STOmics/CSRefiner" class="button primary small" data-icon="github" target="_blank">GitHub</a><a href="https://doi.org/10.1093/bib/bbaf718" class="button secondary small" data-icon="up-right-from-square" target="_blank">Paper</a></td>
+<td><a href="https://github.com/qupath/qupath" class="button primary small" data-icon="github" target="_blank">GitHub</a><a href="https://qupath.readthedocs.io/en/stable/" class="button primary small" data-icon="readme" target="_blank">Doc</a><a href="https://doi.org/10.1038/s41598-017-17204-5" class="button secondary small" data-icon="up-right-from-square" target="_blank">Paper</a></td>
+</tr>
+<tr>
+<td><ul><li>&#x5E7F;&#x6CDB;&#x5E94;&#x7528;&#x4E8E;&#x591A;&#x7EF4;&#x751F;&#x7269;&#x56FE;&#x50CF;&#x5206;&#x6790;&#x7684;&#x5F00;&#x6E90;&#x56FE;&#x50CF;&#x5904;&#x7406;&#x8F6F;&#x4EF6;&#x5305;&#x3002;</li><li>&#x6570;&#x636E;&#x8854;&#x63A5;&#xFF1A;&#x975E;&#x5E38;&#x9002;&#x5408;&#x5728;&#x5BFC;&#x5165;&#x65F6;&#x7A7A;&#x5B98;&#x65B9;&#x5DE5;&#x5177;&#x524D;&#xFF0C;&#x8FDB;&#x884C;&#x5FEB;&#x901F;&#x56FE;&#x50CF;&#x8D28;&#x68C0;&#x3001;&#x624B;&#x52A8;&#x5BF9;&#x9F50;&#x4EE5;&#x53CA;&#x6279;&#x91CF;&#x683C;&#x5F0F;&#x8F6C;&#x6362;&#xFF08;&#x5982; TIFF / PNG&#xFF09;&#x3002;</li></ul></td>
+<td><ul><li>&#x4E13;&#x4E3A; Python &#x6253;&#x9020;&#x7684;&#x5FEB;&#x901F;&#x4EA4;&#x4E92;&#x5F0F; 2D/3D &#x56FE;&#x50CF;&#x67E5;&#x770B;&#x5668;&#xFF0C;&#x9002;&#x7528;&#x4E8E;&#x8D85;&#x5927;&#x591A;&#x7EF4;&#x56FE;&#x50CF;&#x7684;&#x6D4F;&#x89C8;&#x3001;&#x6807;&#x6CE8;&#x4E0E;&#x5206;&#x6790;&#x3002;</li><li>&#x6570;&#x636E;&#x8854;&#x63A5;&#xFF1A;&#x9002;&#x5408; Python &#x539F;&#x751F;&#x6D41;&#x7A0B;&#x4E0E;&#x4EA4;&#x4E92;&#x5F0F;&#x89C6;&#x89C9;&#x68C0;&#x67E5;&#x3002;&#x60A8;&#x53EF;&#x5728;&#x7EC4;&#x7EC7;&#x56FE;&#x50CF;&#x4E0A;&#x5B8C;&#x6210;&#x624B;&#x52A8;&#x6807;&#x6CE8;&#x6216;&#x5206;&#x5272;&#x7CBE;&#x4FEE;&#xFF0C;&#x968F;&#x540E;&#x5C06; Cell Mask &#x5BFC;&#x51FA;&#x4E3A; TIFF &#x6216; GeoJSON &#x683C;&#x5F0F;&#xFF0C;&#x65E0;&#x7F1D;&#x8854;&#x63A5;&#x56DE;&#x65F6;&#x7A7A;&#x5DE5;&#x5177;&#x4E2D;&#x3002;</li></ul></td>
+<td><ul><li>&#x529F;&#x80FD;&#x5F3A;&#x5927;&#x7684;&#x5F00;&#x6E90;&#x751F;&#x7269;&#x56FE;&#x50CF;&#x5206;&#x6790;&#x4E0E;&#x6570;&#x5B57;&#x75C5;&#x7406;&#x8F6F;&#x4EF6;&#xFF0C;&#x9488;&#x5BF9;&#x5168;&#x89C6;&#x91CE;&#x6570;&#x5B57;&#x5207;&#x7247;&#xFF08;WSI&#xFF09;&#x5206;&#x6790;&#x8FDB;&#x884C;&#x4E86;&#x6DF1;&#x5EA6;&#x4F18;&#x5316;&#x3002;</li><li>&#x6570;&#x636E;&#x8854;&#x63A5;&#xFF1A;&#x9002;&#x7528;&#x4E8E;&#x8D85;&#x5927;&#x5168;&#x89C6;&#x91CE;&#x6570;&#x5B57;&#x5207;&#x7247;&#xFF08;WSI&#xFF09;&#x3002;&#x7528;&#x6237;&#x53EF;&#x5728; QuPath &#x4E2D;&#x8FDB;&#x884C;&#x7EC4;&#x7EC7;&#x6807;&#x6CE8;&#x6216;&#x7EC6;&#x80DE;&#x5206;&#x5272;&#xFF0C;&#x5E76;&#x5C06;&#x751F;&#x6210;&#x7684;&#x533A;&#x57DF;&#x63A9;&#x7801;&#xFF08;Region Mask&#xFF09;&#x5BFC;&#x51FA;&#x8854;&#x63A5;&#x81F3;&#x65F6;&#x7A7A;&#x5206;&#x6790;&#x6D41;&#x7A0B;&#x4E2D;&#x3002;</li></ul></td>
+</tr>
+</tbody>
+</table>
+<h3 id="&#x7EC6;&#x80DE;&#x5206;&#x5272;-"><a name="&#x7EC6;&#x80DE;&#x5206;&#x5272;-" class="anchor-navigation-ex-anchor" href="#&#x7EC6;&#x80DE;&#x5206;&#x5272;-"><i class="fa fa-link" aria-hidden="true"></i></a>&#x7EC6;&#x80DE;&#x5206;&#x5272; <a href="#cell-segmentation" id="cell-segmentation"></a></h3>
+<p><em>&#x9884;&#x8BAD;&#x7EC3;&#x6DF1;&#x5EA6;&#x5B66;&#x4E60;&#x6A21;&#x578B;&#x4E0E;&#x7B97;&#x6CD5;&#x6846;&#x67B6;&#xFF0C;&#x652F;&#x6301;&#x8DE8;&#x4E0D;&#x540C;&#x7EC4;&#x7EC7;&#x6A21;&#x6001;&#x5B9E;&#x73B0;&#x81EA;&#x52A8;&#x5316;&#x7684;&#x5355;&#x7EC6;&#x80DE;&#x4E0E;&#x7EC6;&#x80DE;&#x6838;&#x5206;&#x5272;&#x3002;</em></p>
+<p></p><div class="alert alert-info hints-alert"><div class="hints-icon"><i class="fa fa-info-circle"></i></div><div class="hints-container"><p>&#x60F3;&#x8981;&#x4E86;&#x89E3;&#x5982;&#x4F55;&#x5229;&#x7528;&#x7B2C;&#x4E09;&#x65B9;&#x793E;&#x533A;&#x5DE5;&#x5177;&#x7684;&#x5206;&#x5272;&#x7ED3;&#x679C;&#x751F;&#x6210; cellbin &#x6570;&#x636E;&#xFF0C;&#x8BF7;&#x67E5;&#x9605;&#x6211;&#x4EEC;&#x7684;<a href="https://www.stomics.tech/resources/KnowledgeBase/3379.html" target="_blank">&#x6559;&#x7A0B;</a>&#x3002;</p>
+</div></div><p></p>
+<table>
+<thead>
+<tr>
+<th>Cellpose</th>
+<th>StarDist</th>
+<th>Omnipose</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../img/assets/cellpose.svg" data-lightbox="34a5d3b9-276f-47d7-965c-9c395972e1ab" data-title><img src="../img/assets/cellpose.svg" alt></a></td>
+<td><a href="../img/assets/stardist.svg" data-lightbox="34a5d3b9-276f-47d7-965c-9c395972e1ab" data-title><img src="../img/assets/stardist.svg" alt></a></td>
+<td><a href="../img/assets/omnipose.svg" data-lightbox="34a5d3b9-276f-47d7-965c-9c395972e1ab" data-title><img src="../img/assets/omnipose.svg" alt></a></td>
+</tr>
+<tr>
+<td><code>Python</code> <code>GUI</code> <code>Deep Learning</code></td>
+<td><code>Python</code> <code>Java</code> <code>Deep Learning</code></td>
+<td><code>Python</code> <code>Deep Learning</code></td>
+</tr>
+<tr>
+<td><a href="https://github.com/MouseLand/cellpose" class="button primary small" data-icon="github" target="_blank">GitHub</a><a href="https://cellpose.readthedocs.io/en/latest/" class="button primary small" data-icon="readme" target="_blank">Doc</a></td>
+<td><a href="https://github.com/stardist/stardist" class="button primary small" data-icon="github" target="_blank">GitHub</a><a href="https://stardist.net/" class="button primary small" data-icon="readme" target="_blank">Doc</a></td>
+<td><a href="https://github.com/kevinjohncutler/omnipose" class="button primary small" data-icon="github" target="_blank">GitHub</a><a href="https://omnipose.readthedocs.io/" class="button primary small" data-icon="readme" target="_blank">Doc</a></td>
+</tr>
+<tr>
+<td><ul><li>&#x901A;&#x7528;&#x578B;&#x6DF1;&#x5EA6;&#x5B66;&#x4E60;&#x7EC6;&#x80DE;&#x5206;&#x5272;&#x7B97;&#x6CD5;&#xFF0C;&#x9002;&#x7528;&#x4E8E;&#x4E0D;&#x540C;&#x5F62;&#x6001;&#x3001;&#x5C3A;&#x5BF8;&#x548C;&#x6A21;&#x6001;&#x7684;&#x7EC6;&#x80DE;&#x3002;</li><li>&#x6570;&#x636E;&#x8854;&#x63A5;&#xFF1A;&#x53EF;&#x901A;&#x8FC7;&#x56FE;&#x5F62;&#x754C;&#x9762;&#xFF08;GUI&#xFF09;&#x6216; Python API &#x5BF9;&#x591A;&#x8272;&#x67D3;&#x8272;&#x7684;&#x7EC4;&#x7EC7;&#x56FE;&#x50CF;&#x8FDB;&#x884C;&#x5355;&#x7EC6;&#x80DE;&#x6216;&#x7EC6;&#x80DE;&#x6838;&#x5206;&#x5272;&#xFF0C;&#x968F;&#x540E;&#x5C06;&#x6807;&#x51C6; Cell Mask &#x5BFC;&#x51FA;&#x4E3A; TIFF &#x6216; GeoJSON &#x683C;&#x5F0F;&#xFF0C;&#x63A5;&#x5165;&#x65F6;&#x7A7A;&#x5206;&#x6790;&#x5DE5;&#x5177;&#x4EE5;&#x5B9E;&#x73B0;&#x9AD8;&#x7CBE;&#x5EA6;&#x7684; cell bin &#x5206;&#x5272;&#x3002;</li></ul></td>
+<td><ul><li>&#x57FA;&#x4E8E;&#x661F;&#x51F8;&#x591A;&#x8FB9;&#x5F62;&#xFF08;Star-convex&#xFF09;&#x7684;&#x76EE;&#x6807;&#x68C0;&#x6D4B;&#x6A21;&#x578B;&#xFF0C;&#x4E13;&#x4E3A;&#x7EC6;&#x80DE;&#x6838;&#x7B49;&#x5BC6;&#x96C6;&#x661F;&#x51F8;&#x5F62;&#x6001;&#x7684;&#x7ED3;&#x6784;&#x4F18;&#x5316;&#x3002;</li><li>&#x6570;&#x636E;&#x8854;&#x63A5;&#xFF1A;&#x9002;&#x7528;&#x4E8E;&#x6838;&#x67D3;&#x8272;&#xFF08;&#x5982; DAPI&#xFF09;&#x7684;&#x539F;&#x59CB;&#x7EC4;&#x7EC7;&#x56FE;&#x50CF;&#x3002;&#x8F93;&#x51FA;&#x7684; Nuclear Mask&#x5BFC;&#x51FA;&#x4E3A; TIFF &#x6216; GeoJSON &#x683C;&#x5F0F;&#x53EF;&#x5BFC;&#x5165;&#x65F6;&#x7A7A;&#x5206;&#x6790;&#x5DE5;&#x5177;&#xFF0C;&#x8F85;&#x52A9;&#x5F00;&#x5C55;&#x57FA;&#x4E8E;&#x7EC6;&#x80DE;&#x6838;&#x5F15;&#x5BFC;&#x7684; cell bin &#x8BA1;&#x7B97;&#x3002;</li></ul></td>
+<td><ul><li>&#x4E13;&#x4E3A;&#x5F62;&#x6001;&#x591A;&#x53D8;&#x7EC6;&#x80DE;&#x3001;&#x7EC6;&#x83CC;&#x663E;&#x5FAE;&#x6210;&#x50CF;&#x53CA;&#x5BC6;&#x96C6;&#x7EC4;&#x7EC7;&#x8BBE;&#x8BA1;&#x7684;&#x6DF1;&#x5EA6;&#x5B66;&#x4E60;&#x5206;&#x5272;&#x7B97;&#x6CD5;&#x3002;</li><li>&#x6570;&#x636E;&#x8854;&#x63A5;&#xFF1A;&#x9002;&#x7528;&#x4E8E;&#x975E;&#x89C4;&#x5219;&#x5F62;&#x6001;&#x6216;&#x5F62;&#x6001;&#x9AD8;&#x5EA6;&#x590D;&#x6742;&#x7684;&#x7EC6;&#x80DE;&#x6570;&#x636E;&#x96C6;&#xFF0C;&#x5F25;&#x8865;&#x5E38;&#x89C4;&#x901A;&#x7528;&#x6A21;&#x578B;&#xFF08;&#x5982; Cellpose&#xFF09;&#x5728;&#x590D;&#x6742;&#x573A;&#x666F;&#x4E0B;&#x7684;&#x4E0D;&#x8DB3;&#x3002;&#x8F93;&#x51FA;&#x7684;Nuclear Mask &#x53EF;&#x5BFC;&#x5165;&#x65F6;&#x7A7A;&#x5206;&#x6790;&#x5DE5;&#x5177;&#x3002;</li></ul></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>DeepCell</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../img/assets/deepcell.svg" data-lightbox="34a5d3b9-276f-47d7-965c-9c395972e1ab" data-title><img src="../img/assets/deepcell.svg" alt></a></td>
+</tr>
+<tr>
+<td><code>Python</code> <code>GUI</code> <code>Deep Learning</code></td>
+</tr>
+<tr>
+<td><a href="https://github.com/vanvalenlab/deepcell-tf" class="button primary small" data-icon="github" target="_blank">GitHub</a><a href="https://deepcell.readthedocs.io/en/master/" class="button primary small" data-icon="readme" target="_blank">Doc</a></td>
+</tr>
+<tr>
+<td><ul><li>&#x6DF1;&#x5EA6;&#x5B66;&#x4E60;&#x56FE;&#x50CF;&#x7B97;&#x6CD5;&#x5E93;&#xFF0C;&#x5185;&#x7F6E;&#x4E86;&#x7528;&#x4E8E;&#x7EC4;&#x7EC7;&#x56FE;&#x50CF;&#x7EC6;&#x80DE;&#x5206;&#x5272;&#x7684;&#x9884;&#x8BAD;&#x7EC3;&#x6A21;&#x578B;&#xFF08;&#x5982; Mesmer &#x7B49;&#xFF09;&#x3002;</li><li>&#x6570;&#x636E;&#x8854;&#x63A5;&#xFF1A;&#x5728;&#x591A;&#x79CD;&#x7EC4;&#x7EC7;&#x6A21;&#x6001;&#x4E0B;&#x5747;&#x80FD;&#x63D0;&#x4F9B;&#x7A33;&#x5065;&#x7684;&#x5206;&#x5272;&#x8868;&#x73B0;&#x3002;&#x8F93;&#x51FA;&#x7684;&#x7EC6;&#x80DE;&#x6838;&#x6216;&#x7EC6;&#x80DE;&#x819C;&#x63A9;&#x7801;&#x53EF;&#x8F6C;&#x6362;&#x4E3A; TIFF &#x6216; GeoJSON &#x683C;&#x5F0F;&#xFF0C;&#x76F4;&#x63A5;&#x63A5;&#x5165;&#x65F6;&#x7A7A;&#x5DE5;&#x5177;&#x3002;</li></ul></td>
+</tr>
+</tbody>
+</table>
+<h3 id="&#x56FE;&#x50CF;&#x914D;&#x51C6;-"><a name="&#x56FE;&#x50CF;&#x914D;&#x51C6;-" class="anchor-navigation-ex-anchor" href="#&#x56FE;&#x50CF;&#x914D;&#x51C6;-"><i class="fa fa-link" aria-hidden="true"></i></a>&#x56FE;&#x50CF;&#x914D;&#x51C6; <a href="#image-registration" id="image-registration"></a></h3>
+<p><em>&#x4E13;&#x7528;&#x4E8E;&#x591A;&#x901A;&#x9053;&#x56FE;&#x50CF;&#x62FC;&#x63A5;&#x4E0E;&#x591A;&#x5207;&#x7247;&#x914D;&#x51C6;&#x7684;&#x4E13;&#x4E1A;&#x5DE5;&#x5177;&#x53CA;&#x63D2;&#x4EF6;&#x3002;</em></p>
+<table>
+<thead>
+<tr>
+<th>TrakEM2 (ImageJ Plugin)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../img/assets/trakem2.svg" data-lightbox="34a5d3b9-276f-47d7-965c-9c395972e1ab" data-title><img src="../img/assets/trakem2.svg" alt></a></td>
+</tr>
+<tr>
+<td><code>Java</code> <code>ImageJ Plugin</code> <code>GUI</code></td>
+</tr>
+<tr>
+<td><a href="https://github.com/trakem2/TrakEM2" class="button primary small" data-icon="github" target="_blank">GitHub</a><a href="https://imagej.net/plugins/trakem2/" class="button primary small" data-icon="readme" target="_blank">Doc</a></td>
+</tr>
+<tr>
+<td><ul><li>&#x4E00;&#x6B3E;&#x7528;&#x4E8E;&#x5F62;&#x6001;&#x5B66;&#x6570;&#x636E;&#x6316;&#x6398;&#x3001;&#x4E09;&#x7EF4;&#x5EFA;&#x6A21;&#x4EE5;&#x53CA;&#x56FE;&#x50CF;&#x62FC;&#x63A5;&#x3001;&#x914D;&#x51C6;&#x3001;&#x7F16;&#x8F91;&#x4E0E;&#x6807;&#x6CE8;&#x7684; ImageJ &#x63D2;&#x4EF6;&#x3002;</li><li>&#x6570;&#x636E;&#x8854;&#x63A5;&#xFF1A;&#x53EF;&#x5728;&#x5F00;&#x5C55;&#x4E0B;&#x6E38;&#x7A7A;&#x95F4;&#x5206;&#x6790;&#x524D;&#xFF0C;&#x7528;&#x4E8E;&#x591A;&#x5207;&#x7247;&#x6216;&#x591A;&#x901A;&#x9053;&#x7EC4;&#x7EC7;&#x56FE;&#x50CF;&#x7684;&#x624B;&#x52A8;&#x6216;&#x534A;&#x81EA;&#x52A8;&#x5BF9;&#x9F50;&#x914D;&#x51C6;&#x3002;</li></ul></td>
+</tr>
+</tbody>
+</table>
+<footer class="page-footer"><span class="copyright">&#xA9; 2026 STOmics Tech. All rights reserved.</span><span class="footer-modification">Modified: 
+2026-09-16 16:21:24
+</span></footer><script>document.addEventListener("DOMContentLoaded", function() {lightbox.option({"resizeDuration":200,"wrapAround":true});})</script>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class="search-results-count"></span> results matching &quot;<span class="search-query"></span>&quot;</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching &quot;<span class="search-query"></span>&quot;</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="advanced-analysis-cn.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page: &#x9AD8;&#x7EA7;&#x5206;&#x6790;">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"layout":{"outline":{"visible":true},"width":"default","metadata":{"visible":true},"title":{"visible":true},"tags":{"visible":true},"pagination":{"visible":true},"description":{"visible":false},"actions":{"visible":true},"tableOfContents":{"visible":true}},"title":"图像处理","level":"3.2","depth":1,"previous":{"title":"高级分析","level":"3.1","depth":1,"path":"eco-tools/advanced-analysis-cn.md","ref":"eco-tools/advanced-analysis-cn.md","articles":[]},"dir":"ltr"},"config":{"plugins":["expandable-chapters-small","anchor-navigation-ex","logo","-insert-logo","tbfed-pagefooter","hide-element","-code-optimize","katex","hints","tabs","lightbox","-lunr","-search","search-plus","add-index-html","anchor-to-full-links"],"root":".","styles":{},"pluginsConfig":{"tbfed-pagefooter":{"copyright":"© 2026 STOmics Tech.","modify_label":"Modified: ","modify_format":"YYYY-MM-DD HH:mm:ss"},"logo":{"logo":"data:image/png;base64,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","title":"时空软件下载","titleStyle":"font-weight:600"},"hints":{"danger":"fa fa-exclamation-circle","info":"fa fa-info-circle","tip":"fa fa-mortar-board","working":"fa fa-wrench"},"hide-element":{"elements":[".gitbook-link"]},"katex":{},"add-index-html":{"myConfigKey":"it's the default value","elements":["a"]},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"anchor-navigation-ex":{"associatedWithSummary":true,"float":{"floatIcon":"fa fa-navicon","level1Icon":"fa fa-hand-o-right","level2Icon":"fa fa-hand-o-right","level3Icon":"fa fa-hand-o-right","showLevelIcon":false},"mode":"float","multipleH1":true,"pageTop":{"level1Icon":"fa fa-hand-o-right","level2Icon":"fa fa-hand-o-right","level3Icon":"fa fa-hand-o-right","showLevelIcon":false},"printLog":true,"showGoTop":true,"showLevel":false},"anchor-to-full-links":{"myConfigKey":"it's the default value","elements":["a"]},"lightbox":{"jquery":true,"includeJQuery":true,"sameUuid":true,"options":{"resizeDuration":200,"wrapAround":true}},"expandable-chapters-small":{},"sharing":{"facebook":false,"twitter":false,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":[]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"code-optimize":{"copyButtons":true,"showLines":true},"tabs":{},"search-plus":{}},"theme":"default","author":"","pdf":{"pageBreaksBefore":"/","headerTemplate":null,"paperSize":"a4","margin":{"right":62,"left":62,"top":36,"bottom":36},"fontSize":12,"fontFamily":"Arial","footerTemplate":null,"chapterMark":"pagebreak","pageNumbers":false},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"isbn":"","variables":{},"title":"STOmics software Download","language":"zh-hans","links":{"gitbook":false,"sharing":{"google":false,"facebook":false,"twitter":false,"all":false}},"gitbook":"3.2.3","description":null,"extension":null},"file":{"path":"eco-tools/image-processing-cn.md","mtime":"2026-09-16T08:21:24.484Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2026-09-16T08:21:56.853Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-expandable-chapters-small/expandable-chapters-small.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-hide-element/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-tabs/bootstrap.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lightbox/js/lightbox.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search-plus/jquery.mark.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search-plus/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-add-index-html/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-anchor-to-full-links/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

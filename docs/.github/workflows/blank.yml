@@ -90,7 +90,7 @@ jobs:
           mv _book docs
           mv docs/.gitbook docs/img 
           grep mark{background:#fff -rl docs | xargs sed -i '' 's/mark{background:#fff/mark{background:#fff/g'
-          grep .gitbook/assets -rl docs | xargs sed -i '' 's|.gitbook/assets|img/assets|g'
+          grep img/assets -rl docs | xargs sed -i '' 's|img/assets|img/assets|g'
       
       # - if: ${{ inputs.repo }} != ""
       - name: Upload docs to github repo
